@@ -7,6 +7,17 @@
 </head>
 <body>
 	%include('haus.tpl')
+	<div class="wrapper">
+	<% l=len(data[results])
+	for i in range(1-1):
+	if (data["results"][i]["company"] !=data["results"][i+1]["company"])
+		
+	</div>
+	<div class="box">
+		<a href="/company/{{{data['results'][i][company]}}}\">
+			{{data['results'][i][company]}}
+		</a>
+	</div>
 	<div class='row'>
 		<section>
 			<h2>Gengi gjaldmiðla frá Api.is</h2>
